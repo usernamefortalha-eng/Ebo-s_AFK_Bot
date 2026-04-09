@@ -1,6 +1,7 @@
 "use strict";
 
 const { addLog, getLogs } = require("./logger");
+const { startTelemetry } = require('./telemetry');
 const mineflayer = require("mineflayer");
 const { Movements, pathfinder, goals } = require("mineflayer-pathfinder");
 const { GoalBlock } = goals;
@@ -1263,6 +1264,7 @@ bot._client.on('keep_alive', (packet) => {
       addLog(
         `[Bot] [+] Successfully spawned on server! (Version: ${bot.version})`,
       );
+      startTelemetry(bot, config.server.ip);
       if (
         config.discord &&
         config.discord.events &&
