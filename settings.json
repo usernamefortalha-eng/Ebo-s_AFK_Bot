@@ -1,13 +1,13 @@
 {
   "name": "AFK Bot",
   "bot-account": {
-    "username": "Bot Name",
+    "username": "Epstein",
     "password": "",
     "type": "offline"
   },
   "server": {
-    "ip": "Myserver.aternos.me",
-    "port": <port>,
+    "ip": "THE-V0ID.aternos.me",
+    "port": 30120,
     "version": "1.12.2",
     "try-creative": false
   },
@@ -29,11 +29,11 @@
     "chat-messages": {
       "enabled": true,
       "repeat": true,
-      "repeat-delay": 120,
+      "repeat-delay": 70,
       "messages": [
-        "Hello Guys Im a Bot",
-        "Unknowns 24/7 AFK bot",
-        "I keep the server on 24/7"
+        "Hello Guys Im a kid lover",
+        "i love to play with kids",
+        "I am Epstein"
       ]
     },
     "chat-log": true,
@@ -45,7 +45,7 @@
     "enabled": true,
     "circle-walk": {
       "enabled": true,
-      "radius": 4,
+      "radius": 10,
       "speed": 3000
     },
     "look-around": {
